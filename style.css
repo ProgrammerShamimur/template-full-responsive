@@ -1,0 +1,247 @@
+/* ==========\\\\\\ Reset css //////========== */
+*{
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.fixed-width{
+    max-width: 1420px;
+    margin: auto;
+}
+
+
+/* ==========\\\\\\ header css //////========== */
+.header {
+    background-color: #22c3a3;
+    padding: 30px 0;
+}
+.header-section{}
+.header-logo{
+    float: left;
+}
+.header-logo a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 27px;
+}
+.header-menu{
+    float: right;
+}
+.header-menu ul{
+    margin-top: 9px;
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a {
+    color: rgb(245, 240, 240);
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 18px;
+}
+
+
+/* ==========\\\\\\ banner section css //////========== */
+.banner {
+    background: url(https://i.ibb.co/GvxXyHg/header-bg01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -124px;
+    background-attachment: scroll;
+    padding: 280px 0;
+}
+.banner-text{
+    color: #fff;
+}
+.banner-text h2 {
+    font-size: 65px;
+}
+.banner-text h5 {
+    color: #d9f1ea;
+    font-size: 25px;
+    margin: 11px;
+}
+.banner-text .learn {
+    display: inline-block;
+    color: #ffffffd9;
+    text-decoration: none;
+    border: 2px solid #ffffffb5;
+    font-size: 20px;
+    padding: 9px 18px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+
+
+/* ==========\\\\\\ service css //////========== */
+.services-heading {
+    background: #fff;
+    padding: 76px 0;
+}
+.services-heading h2 {
+    font-size: 38px;
+    color: #383535;
+    margin-bottom: 20px;
+}
+.services-heading p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #5f5d5d;
+}
+.services {
+    background-color: #fff;
+    padding-top: 13px;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #22c3a3;
+}
+.services-item{}
+.service-box {
+    float: left;
+    width: 25%;
+    padding: 25px 27px;
+    box-sizing: border-box;
+}
+.service-box .s-icon {
+    color: #22c3a3;
+    font-size: 35px;
+}
+.service-box h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    margin: 11px 0;
+    color: #5d5d5d;
+}
+.service-box p {
+    font-family: 'Open Sans', sans-serif;
+    color: #5f5d5d;
+    font-size: 18px;
+}
+/* ==========\\\\\\ about section css //////========== */
+.about {
+    background: #fff;
+    padding: 55px 0;
+}
+.about-header{}
+.about-header h3 {
+    font-size: 36px;
+    margin-bottom: 17px;
+    color: #383535f5;
+}
+.about-header p {
+    font-family: 'Open Sans', sans-serif;
+    color: #5f5d5d;
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
+
+.about-title {
+    margin: 56px 0 18px 0;
+}
+.about-title-image {
+    float: left;
+    width: 45%;
+}
+.about-title-image img{
+    max-width: 100%;
+}
+.about-title-text {
+    float: right;
+    width: 52%;
+    margin-top: 39px;
+}
+
+.about-title-text h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: #615f5f;
+    margin-bottom: 7px;
+    font-size: 19px;
+}
+.about-title-text p {
+    font-family: 'Open Sans', sans-serif;
+    color: #5f5d5d;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+/* ==========\\\\\\ contact section css //////========== */
+.contact{
+    background-color: #f6f6f6;
+    padding: 75px 0;
+}
+.contact-header{}
+.contact-header h3{
+    font-size: 36px;
+    margin-bottom: 17px;
+    color: #383535f5;
+}
+.contact-header p{
+    font-family: 'Open Sans', sans-serif;
+    color: #5f5d5d;
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+
+.contact-option {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.c-icon {
+    color: #22c3a3;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.contact-option .c-add{
+    color: #5f5d5d;
+}
+
+
+/* ==========\\\\\\ social section css //////========== */
+.social{
+    background-color: #22c3a3e5;
+    padding: 15px 0;
+}
+.social-icon{}
+.social-icon ul{
+    text-align: center;
+}
+.social-icon ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.social-icon ul li a {
+    display: inline-block;
+    color: #fff;
+    font-size: 23px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+
+/* ==========\\\\\\ footer section css //////========== */
+.footer{
+    background-color: #222;
+    padding: 15px 0;
+}
+.footer-text p{
+    font-family: 'Open Sans', sans-serif;
+    color: #5f5d5d;
+    font-size: 17px;
+}
